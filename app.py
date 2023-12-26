@@ -13,7 +13,7 @@ import uvicorn
 from fastapi import FastAPI, Request, Response
 from PIL import Image
 from models.room_type_classification import RoomClassifier
-
+# lol
 # Logging setup
 logging.basicConfig(
     stream=sys.stdout,
