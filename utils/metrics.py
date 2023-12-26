@@ -2,10 +2,9 @@ import argparse
 import csv
 import os
 import time
+
 import matplotlib.pyplot as plt
 import numpy as np
-from PIL import Image
-from tqdm import tqdm
 from sklearn.metrics import (
     confusion_matrix,
     ConfusionMatrixDisplay,
@@ -14,6 +13,8 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
 )
+from tqdm import tqdm
+
 from models.room_type_base_model import RoomTypeClassifier
 
 

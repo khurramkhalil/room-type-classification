@@ -10,8 +10,9 @@ import cv2
 import numpy as np
 import requests
 import uvicorn
-from fastapi import FastAPI, Request, Response
 from PIL import Image
+from fastapi import FastAPI, Request, Response
+
 from models.room_type_classification import RoomClassifier
 
 # Logging setup

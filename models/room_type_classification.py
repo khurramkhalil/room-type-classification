@@ -1,7 +1,5 @@
 import string
 
-import torch
-from PIL import Image
 from .room_type_base_model import RoomTypeClassifier
 
 

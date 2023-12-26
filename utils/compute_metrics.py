@@ -1,11 +1,13 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn import metrics
-import pandas as pd
 import os
-from PIL import Image
-from models.room_type_classification import RoomClassifier
 import sys
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+from PIL import Image
+from sklearn import metrics
+
+from models.room_type_classification import RoomClassifier
 
 
 def make_pred(input_dir, filename="logs.csv"):

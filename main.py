@@ -1,6 +1,8 @@
 import argparse
 import os
+
 from PIL import Image
+
 from models.room_type_classification import RoomClassifier
 
 if __name__ == "__main__":
