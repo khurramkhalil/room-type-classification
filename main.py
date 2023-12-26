@@ -3,7 +3,7 @@ import os
 from PIL import Image
 from models.room_type_classification import RoomClassifier
 
-#code starts here.
+#code starts...
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", help="input directory containing images")
