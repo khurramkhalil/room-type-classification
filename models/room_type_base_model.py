@@ -2,10 +2,9 @@ import clip
 import torch
 from tqdm import tqdm
 
-from .prompts_processor import LabelPromptsProcessor
 from utils.room_prompts import room_label_and_prompt
-
 from .datasets.dataloader import dataset_loader
+from .prompts_processor import LabelPromptsProcessor
 
 
 class RoomTypeClassifier:

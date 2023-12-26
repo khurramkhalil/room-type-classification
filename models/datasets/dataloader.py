@@ -8,6 +8,7 @@ from torchvision import datasets
 def loader(path):
     return Image.open(path)
 
+
 def dataset_loader(folder_path, ext_list, transform, BATCH_SIZE=64):
     folder_dataset = datasets.DatasetFolder(
         root=folder_path, loader=loader, extensions=ext_list, transform=transform

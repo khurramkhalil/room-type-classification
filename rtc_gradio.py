@@ -1,7 +1,8 @@
 import gradio as gr
-from models.room_type_classification import RoomClassifier
-from PIL import Image
 import numpy as np
+from PIL import Image
+
+from models.room_type_classification import RoomClassifier
 
 # Initialize the model
 MODEL = RoomClassifier(use_cuda=True)
