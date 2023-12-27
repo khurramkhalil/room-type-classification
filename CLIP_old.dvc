@@ -1,0 +1,6 @@
+outs:
+- md5: 909d2dd1532b7a8b1cd228d57115e372.dir
+  size: 118812209
+  nfiles: 3426
+  hash: md5
+  path: CLIP_old
